@@ -12,7 +12,7 @@
     <meta name=description content="武汉 Kotlin 用户组">
     <meta name=author content="wuhan-kug">
     <link rel=canonical href=https://wuhan-kug.github.io/>
-    <link crossorigin=anonymous href=/assets/css/stylesheet.62aa25427797f8efd87301a5b69795dc50df2dbe79a5fba0648cc7bb8dbcd7c9.css integrity="sha256-YqolQneX+O/YcwGltpeV3FDfLb55pfugZIzHu42818k=" rel="preload stylesheet" as=style>
+    <link crossorigin=anonymous href=/assets/css/stylesheet.62aa25427797f8efd87301a5b69795dc50df2dbe79a5fba0648cc7bb8dbcd7c9.css rel="preload stylesheet" as=style>
     <link rel=icon href=https://wuhan-kug.github.io/kug-wuhan-icon.png>
     <link rel=icon type=image/png sizes=16x16 href=https://wuhan-kug.github.io/favicon-16x16.png>
     <link rel=icon type=image/png sizes=32x32 href=https://wuhan-kug.github.io/favicon-32x32.png>
@@ -116,7 +116,7 @@
     </main>
     <footer class=footer>
       <span>&copy; 2023
-        <a href=https://wuhan-kug.github.io/>武汉 KUG</a>
+        <a href=https://wuhan-kug.github.io>武汉 KUG</a>
       </span>
       <span>Powered by
         <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a>&
@@ -132,7 +132,7 @@
       menu && (menu.scrollLeft = localStorage.getItem("menu-scroll-position"), menu.onscroll = function() {
         localStorage.setItem("menu-scroll-position", menu.scrollLeft)
       }),
-      document.querySelectorAll('a[href^="#"]').forEach(e = >{
+      document.querySelectorAll('a[href^="#"]').forEach(e =>{
         e.addEventListener("click",
         function(e) {
           e.preventDefault();
@@ -149,7 +149,7 @@
       window.onscroll = function() {
         document.body.scrollTop > 800 || document.documentElement.scrollTop > 800 ? (mybutton.style.visibility = "visible", mybutton.style.opacity = "1") : (mybutton.style.visibility = "hidden", mybutton.style.opacity = "0")
       }</script>
-    <script>document.getElementById("theme-toggle").addEventListener("click", () = >{
+    <script>document.getElementById("theme-toggle").addEventListener("click", () =>{
         document.body.className.includes("dark") ? (document.body.classList.remove("dark"), localStorage.setItem("pref-theme", "light")) : (document.body.classList.add("dark"), localStorage.setItem("pref-theme", "dark"))
       })</script>
   </body>
